@@ -5,8 +5,12 @@ import './styles.css';
 const App = () => {
   return (
     <div className="App">
-      <h1>Football News</h1>
-      <NewsList />
+      <header className="App-header">
+        <h1 className="App-title">Football News</h1>
+      </header>
+      <main className="App-content">
+        <NewsList />
+      </main>
     </div>
   );
 };
