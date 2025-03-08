@@ -1,15 +1,15 @@
 import React from 'react';
-import NewsList from './components/NewsList';
+import MusicList from './components/MusicList';
 import './styles.css';
 
 const App = () => {
   return (
     <div className="App">
       <header className="App-header">
-        <h1 className="App-title">Football News</h1>
+        <h1 className="App-title">Music Hub</h1>
       </header>
       <main className="App-content">
-        <NewsList />
+        <MusicList />
       </main>
     </div>
   );
